@@ -17,9 +17,10 @@ body {
 .countdown {
     display: flex;
     align-items: center;
-    background-color: #343a40;
+    justify-content: center; /* Center horizontally */
+    background-color: #7396b9;
     color: #ffffff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -27,6 +28,7 @@ body {
 .countdown-item {
     text-align: center;
     margin: 0 10px; /* Add margin between countdown items */
+    font-size: 25px;
 }
 
 .countdown-item span {
@@ -34,6 +36,7 @@ body {
     font-weight: bold;
     display: block;
 }
+
 /* Add responsive styles for smaller screens */
 @media (max-width: 576px) {
     .countdown {
