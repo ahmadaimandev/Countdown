@@ -40,6 +40,6 @@ body {
 /* Add responsive styles for smaller screens */
 @media (max-width: 576px) {
     .countdown {
-        flex-direction: column;
+        flex-direction: column
     }
 }
