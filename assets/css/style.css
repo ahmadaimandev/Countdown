@@ -1,0 +1,26 @@
+body {
+    background: url(/assets/image/bg-image.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+  }
+  .container {
+    text-align: center;
+    padding-top: 100px;
+  }
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  #countdown {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
