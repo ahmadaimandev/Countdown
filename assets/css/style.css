@@ -1,14 +1,42 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
-
 body {
-    margin: 0;
-    padding: 0;
+    background-color: #f8f9fa;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
-p.h1 {
+.container {
     text-align: center;
-    font-weight: 400;
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-item {
+    text-align: center;
+    margin: 0 10px; /* Add margin between countdown items */
+}
+
+.countdown-item span {
+    font-size: 2em;
+    font-weight: bold;
+    display: block;
+}
+/* Add responsive styles for smaller screens */
+@media (max-width: 576px) {
+    .countdown {
+        flex-direction: column;
+    }
 }
